@@ -1,3 +1,63 @@
+## <small>3.0.2 (2020-01-31)</small>
+
+* fix: don't fail on videos when ytdl returns filesize null ([8f6235b](https://github.com/przemyslawpluta/node-youtube-dl/commit/8f6235b))
+
+
+
+## <small>3.0.1 (2020-01-16)</small>
+
+* fix: args check ([504419b](https://github.com/przemyslawpluta/node-youtube-dl/commit/504419b))
+* Add proxy support ([32b358b](https://github.com/przemyslawpluta/node-youtube-dl/commit/32b358b))
+* Drop node8 support ([dd3d7ee](https://github.com/przemyslawpluta/node-youtube-dl/commit/dd3d7ee))
+
+
+
+## 3.0.0 (2020-01-13)
+
+* ci: drop node8 support ([333fb7a](https://github.com/przemyslawpluta/node-youtube-dl/commit/333fb7a))
+* always add range header on data request ([4bd8904](https://github.com/przemyslawpluta/node-youtube-dl/commit/4bd8904))
+* test: adding download large audio ([871382f](https://github.com/przemyslawpluta/node-youtube-dl/commit/871382f))
+* test: fix failure due to latest server data ([4f5e44b](https://github.com/przemyslawpluta/node-youtube-dl/commit/4f5e44b))
+
+
+
+## 2.3.0 (2019-12-15)
+
+* Update get-binary.js ([b98425a](https://github.com/przemyslawpluta/node-youtube-dl/commit/b98425a))
+* refactor: log warning instead of an error if the binary is not found ([1ecca38](https://github.com/przemyslawpluta/node-youtube-dl/commit/1ecca38))
+* refactor: only log missing binary error if debug is enabled ([3535e36](https://github.com/przemyslawpluta/node-youtube-dl/commit/3535e36))
+* fix: log error if the youtube-dl binary does not exist ([1898e8c](https://github.com/przemyslawpluta/node-youtube-dl/commit/1898e8c))
+
+
+
+## 2.2.0 (2019-12-12)
+
+* Update downloader.js ([952826a](https://github.com/przemyslawpluta/node-youtube-dl/commit/952826a))
+* Update README.md ([341882f](https://github.com/przemyslawpluta/node-youtube-dl/commit/341882f))
+* fix: access to download binary from mirror sites ([7751e65](https://github.com/przemyslawpluta/node-youtube-dl/commit/7751e65))
+
+
+
+<a name="2.1.0"></a>
+# 2.1.0 (2019-10-29)
+
+* build: add execa dependency ([ffddb6f](https://github.com/przemyslawpluta/node-youtube-dl/commit/ffddb6f))
+* build: update contributors ([00dcf5e](https://github.com/przemyslawpluta/node-youtube-dl/commit/00dcf5e))
+* fix: avoid destructure under error ([8fb0e20](https://github.com/przemyslawpluta/node-youtube-dl/commit/8fb0e20))
+* Add a timeout to close connection if its idle. ([51963bd](https://github.com/przemyslawpluta/node-youtube-dl/commit/51963bd))
+* Update youtube-dl.js ([9195b44](https://github.com/przemyslawpluta/node-youtube-dl/commit/9195b44))
+
+
+
+<a name="2.0.2"></a>
+## 2.0.2 (2019-10-25)
+
+* fix: add access to ChildProcess from outside ([0c10ce5](https://github.com/przemyslawpluta/node-youtube-dl/commit/0c10ce5))
+* docs: Add undocumented getYtdlBinary & setYtdlBinary functions ([3e91ebf](https://github.com/przemyslawpluta/node-youtube-dl/commit/3e91ebf))
+* docs: normalize youtubedl require statements and remove semicolons ([28373a0](https://github.com/przemyslawpluta/node-youtube-dl/commit/28373a0))
+
+
+
 <a name="2.0.1"></a>
 ## 2.0.1 (2019-08-10)
 
